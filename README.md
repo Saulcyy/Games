@@ -1,2 +1,1 @@
-# Games
-Jeux vidéos
+Je publierai de temps à autre un le code de logiciels Jeux. Je publie uniquement quand je le souhaite, ou quand j'en ai l'envie. Si de votre part, en échange du temps passé au développement du bot, pouviez laisser la créditation ça me permettrai de poursuivre les publications ! Merci ! 😉
