@@ -1,6 +1,6 @@
 '''
- Diego Piccinotti (Matricola: 264763)
- Francesco Saccani (Matricola: 265559)
+Développé par Mona
+Discord : Mona#6669
 '''
 
 import pygame
