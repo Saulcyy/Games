@@ -52,7 +52,7 @@ while playing:
     font = pygame.font.SysFont('Courier', 14)
     msg = font.render(str(pacman.scores), True, (255, 255, 255))
     screen.blit(msg, (6, 254))
-    ## Eaten Ghost Points
+    ## Points fantômes mangés
     for s in reversed(pacman.scores_sprite):
         screen.blit(sprites, s[0], area = (s[1]*16, 128, 16, 16))
         if s[2] == FRAME_RATE*3: pacman.scores_sprite.remove(s)
