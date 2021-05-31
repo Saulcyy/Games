@@ -41,7 +41,7 @@ class PacmanArena(Arena):
                 result = 0
         ## condition de défaite
         if self._lifes == -1: result = 2
-        return result # 0 -> continua a giocare, 1 -> hai vinto, 2 -> hai perso
+        return result # 0 -> continuez à jouer, 1 -> vous gagnez, 2 -> vous perdez.
 
     def sound(self, i:int):
         return self._sounds[i]
@@ -83,7 +83,7 @@ class Bonus(Actor):
         self._arena.add(self)
         
     def set_pos(self):
-    ## Genera la posizione del bonus
+    ## Générer une position de bonus
         self._x = random.randint(1,14)*8
         self._y = random.randint(1,14)*8
         while self._arena.rect_in_wall(self, self.rect()) or (92 <= self._x <= 139 and 108 <= self._y <= 131):
