@@ -1,1 +1,1 @@
-Je publierai de temps à autre le code de logiciels Jeux. Je publie uniquement quand je le souhaite, ou quand j'en ai l'envie. Si de votre part, en échange du temps passé au développement du bot, pouviez laisser la créditation ça me permettrai de poursuivre les publications ! Merci ! 😉
+Si vous récupérez le code des jeux à des fins personnels, merci de laisser toute créditation.
